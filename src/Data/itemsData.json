@@ -1,0 +1,80 @@
+[
+  {
+    "id": "21feb0fc-0504-42d9-8d1b-2dded3c9ac73",
+    "name": "Item A",
+    "category": "Fashion",
+    "price": 549
+  },
+  {
+    "id": "85db4e9e-8a06-48c4-a6aa-f52b847da4ca",
+    "name": "Item B",
+    "category": "Books",
+    "price": 205
+  },
+  {
+    "id": "92b9b627-a109-4c13-9e45-13baef9f342e",
+    "name": "Item C",
+    "category": "Fashion",
+    "price": 395
+  },
+  {
+    "id": "1f55ac6b-6d8e-4948-994f-01cf75c34f3f",
+    "name": "Item D",
+    "category": "Electronics",
+    "price": 1260
+  },
+  {
+    "id": "5263e6d5-b6d6-4afa-a5f2-7ac06a6988bf",
+    "name": "Item E",
+    "category": "Cosmetics",
+    "price": 226
+  },
+  {
+    "id": "adcbdb9a-4f56-4f6c-a67a-63481f715542",
+    "name": "Item F",
+    "category": "Daily Essentials",
+    "price": 642
+  },
+  {
+    "id": "6f51af12-9755-46ac-9b89-77af52de91e1",
+    "name": "Item G",
+    "category": "Sports Accessory",
+    "price": 2266
+  },
+  {
+    "id": "21feb0fc-0504-42d9-8d1b-2dded3a6ac73",
+    "name": "Item H",
+    "category": "Fashion",
+    "price": 549
+  },
+  {
+    "id": "85db4e9e-8a06-48c4-a6aa-f52b847dc8ca",
+    "name": "Item I",
+    "category": "Books",
+    "price": 205
+  },
+  {
+    "id": "92b9b627-a109-4c13-9e45-13baef9f122e",
+    "name": "Item J",
+    "category": "Fashion",
+    "price": 395
+  },
+  {
+    "id": "1f55ac6b-6d8e-4948-994f-01cf75c65f3f",
+    "name": "Item K",
+    "category": "Electronics",
+    "price": 1260
+  },
+  {
+    "id": "6c56ddd7-5e16-4440-a9b3-e8b02cf4f677",
+    "name": "Test Item",
+    "category": "Test Category",
+    "price": 199
+  },
+  {
+    "id": "8bb9a232-8eec-4ba6-bf55-1a0598c80215",
+    "name": "Test Item3",
+    "category": "Test Category",
+    "price": 199
+  }
+]
