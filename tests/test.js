@@ -1,15 +1,13 @@
 const chai = require('chai');
 const chaiHttp = require('chai-http');
-const app = require('../app'); // Update the path accordingly
+const app = require('../app');
 const expect = chai.expect;
 
 chai.use(chaiHttp);
 
 describe('API Tests', () => {
-  // ... Other test cases
 
   describe('CRUD Operations', () => {
-    // ... Other CRUD test cases
 
     it('should add a new item', async () => {
       const newItem = {
@@ -22,7 +20,7 @@ describe('API Tests', () => {
         .post('/items/add-item')
         .send(newItem);
     
-      expect(res).to.have.status(201); // Updated this line to expect a status of 201
+      expect(res).to.have.status(201); 
       expect(res.body).to.have.property('id');
       expect(res.body).to.deep.include(newItem);
     });
@@ -35,7 +33,7 @@ describe('API Tests', () => {
     });
 
     it('should get an item by ID', async () => {
-      // Assuming you have an existing item ID for testing
+ 
       const itemId = '1f55ac6b-6d8e-4948-994f-01cf75c65f3f';
 
       const res = await chai.request(app)
@@ -46,7 +44,7 @@ describe('API Tests', () => {
     });
 
     it('should update an item', async () => {
-      // Assuming you have an existing item ID for testing
+
       const itemId = 'ce3b0439-6d31-49df-ba89-b1dcb0538347';
       const updatedItem = {
         name: 'Updated Item',
@@ -63,7 +61,7 @@ describe('API Tests', () => {
     });
 
     it('should delete an item', async () => {
-      // Assuming you have an existing item ID for testing
+
       const itemId = '2894b2e4-cfd4-4aac-8dfd-7db2bb80e784';
 
       const res = await chai.request(app)
